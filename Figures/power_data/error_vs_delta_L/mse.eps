@@ -1,0 +1,85 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Creator: (MATLAB, The MathWorks, Inc. Version 25.2.0.3055257 R2025b Update 2. Operating System: Microsoft Windows 10 Enterprise)
+%%Title: ./mse.eps
+%%CreationDate: 2026-02-08T15:36:06
+%%Pages: (atend)
+%%BoundingBox:    0     0   420   315
+%%LanguageLevel: 3
+%%EndComments
+/bd{bind def}bind def
+/ld{load def}bd
+/GR/grestore ld
+/GS/gsave ld
+/RM/rmoveto ld
+/C/curveto ld
+/t/show ld
+/L/lineto ld
+/RL/rlineto ld
+/ML/setmiterlimit ld
+/CT/concat ld
+/f/fill ld
+/N/newpath ld
+/S/stroke ld
+/CC/setcmykcolor ld
+/A/ashow ld
+/cp/closepath ld
+/RC/setrgbcolor ld
+/LJ/setlinejoin ld
+/GC/setgray ld
+/LW/setlinewidth ld
+/LC/setlinecap ld
+/LJ/setlinejoin ld
+/SD/setdash ld
+/M/moveto ld
+/TX/translate ld
+/R/rotate ld
+/SC/scale ld
+
+/CIRC {0 360 arc}bd
+/F {exch findfont exch scalefont setfont}bd
+/edef{ exch def } def
+/scaleImg{ % width height outputDPI scaleImg
+   /outputDPI edef
+   /height edef
+   /width edef
+   /psDPI 72 def
+   /sDPI psDPI outputDPI div def % DPI scale
+   width sDPI mul % width * (psDPI / outputDPI)
+   height sDPI mul
+   scale
+} def
+
+% LineAttribute methods.linewidth linejoin linecap [dashpattern] dashOffset colorVal(s) <method>
+/LAG {setgray setdash setlinecap setlinejoin setlinewidth} bd
+/LAR {setrgbcolor setdash setlinecap setlinejoin setlinewidth} bd
+/LAC {setcmykcolor setdash setlinecap setlinejoin setlinewidth} bd
+
+% draw line impl
+/DL { % VertexList NVerts StartPt DL
+  N moveto { lineto } repeat stroke} def
+% draw unfilled polyline impl
+/DPL { % VertexList NVerts StartPt DPL
+  N moveto { lineto } repeat closepath stroke} def
+% draw filled polyline impl
+/DPLF { % VertexList NVerts StartPt DPLF
+  N moveto { lineto } repeat closepath fill } def
+/DRL { % VertexList NVerts StartPt DRL
+  N moveto { rlineto } repeat stroke} def
+% draw unfilled polyline impl
+/DRPL { % VertexList NVerts StartPt DRPL
+  N moveto { rlineto } repeat closepath stroke} def
+% draw filled polyline impl
+/DRPLF { % VertexList NVerts StartPt DRPLF
+  N moveto { rlineto } repeat closepath fill } def
+
+%%Page: 1 1
+%%PageBoundingBox:    0     0   420   315
+%%BeginPageSetup
+1.00 GC
+0 315 420 315 420 0 3 0 0 DPLF
+[  0.75 0 0 -0.75 0   315] CT
+%%EndPageSetup
+1.00 LW
+%%Trailer
+%%Pages: 1
+%%EOF
