@@ -156,7 +156,13 @@ The admittance matrix is parsed by `load_cdf.m`. The imaginary part of `Y` gives
 
 ---
 
-## Citation
+## Contact
+
+For questions or inquiries, please contact:
+
+- Lital Dabush: litaldab@post.bgu.ac.il
+- Tirza Routtenberg: tirzar@bgu.ac.il
+<!-- ## Citation
 
 If you use this code in your research, please cite:
 
@@ -169,5 +175,5 @@ If you use this code in your research, please cite:
   archivePrefix = {arXiv},
   primaryClass  = {eess.SP}
 }
-```
+``` -->
 
